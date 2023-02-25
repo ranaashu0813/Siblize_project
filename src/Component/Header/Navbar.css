@@ -1,0 +1,104 @@
+.max-width{
+    max-width: 1440px;
+}
+.navbars{
+width: 100%;
+display: flex;
+
+align-items: center;
+margin-bottom: 12px;
+padding: 12px 0px;
+}
+
+
+.header-logo{
+height: 96px;
+max-width: 100%;
+margin-right: 12px;
+
+}
+
+.navbar-centerr{
+    display: flex;
+    flex:100%;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.navbar-center-search-containerr{
+ display: flex;
+ align-items: center;
+ border-radius: 8px;
+ box-shadow: 12px 12px 2px 1px rgba(8, 8, 11, 0.2);
+ border-color: 6px solid rgb(116, 22, 22);
+ width: 100%;
+}
+.property-types{
+   display: flex;
+   flex: 1;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 10px;
+
+}
+.containers{
+    display: grid;
+    margin-right: 45px;
+}
+.cpt{
+    font-size: medium;
+    font-weight: bold;
+}
+.seperators{
+    height: 25px;
+    border: 0.5px solid black;
+}
+.location-search-bars{
+    display: flex;
+
+}
+.navbar-rightside{
+    display:flex;
+   flex: 50%
+    
+}
+.knowmoreee{
+    display: flex;
+  margin-left: 50px;
+}
+.drop-downs{
+    margin-left: 25px;
+}
+.calls{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 14px;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 3px;
+    box-shadow:  5px 5px 1px rgb(156, 154, 154);
+    transition: all .3s linear;
+    cursor: pointer; */
+}
+.calls:hover{
+    transform: translateY(-2px);
+
+}
+.requests{
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 12px;
+}
+@media screen and (max-width: 780px){
+   .navbar{
+        height: 140px;
+    }
+
+}

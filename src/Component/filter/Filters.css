@@ -1,0 +1,30 @@
+.filters{
+    display: flex;
+    margin-left: 3px;
+    padding: 16px 0px;
+    
+
+}
+.filter-item{
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:18px;
+    border: 1px solid grey;
+    margin-right: 5px;
+    padding: 4px 40px;
+    /* max-width: 100%  !important; */
+    flex-grow: 1;
+}
+.filter-title{
+    display: flex;
+   margin-left: 0px;
+    margin-right: 12px;
+    font-size:medium;
+    font-weight: bold;
+    
+}
+.filter-icon{
+ 
+}
